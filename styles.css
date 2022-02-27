@@ -1,0 +1,52 @@
+/*************** Header*****************/
+.navbar {
+    background-color: rgb(199, 199, 199);
+}
+
+.nav-item:hover {
+    background-color: rgb(224, 223, 223);
+}
+
+.navbar-brand {
+    color: black;
+}
+
+/***************** Container****************/
+#chicken-description, #beef-description, #sushi-description {
+    background-color: rgb(199, 199, 199);
+}
+
+.aaa {
+    font-size: 1.2em;
+}
+
+
+
+/******************** Mobile *******************/
+@media screen and (max-width: 767px){
+    .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+}
+
+/******************** Tablet *********************/
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .col-md-6{
+        width: 48%;
+        float: left;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+}
+
+/******************** Desktop ***********************/
+@media screen and (min-width: 991px){
+    .col-lg-4{
+        width: 31.33%;
+        float: left;
+    }
+}
